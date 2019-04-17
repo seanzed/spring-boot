@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.sean.study</groupId>
+    <artifactId>spring-boot</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>spring-boot-hello</module>
+        <module>spring-boot-yaml</module>
+        <module>spring-boot-yaml2</module>
+        <module>spring-boot-config</module>
+        <module>spring-boot-config2</module>
+        <module>spring-boot-logging</module>
+        <module>spring-boot-freemarker</module>
+        <module>spring-boot-thymeleaf</module>
+        <module>spring-boot-error</module>
+        <module>spring-boot-error2</module>
+        <module>spring-boot-error3</module>
+        <module>spring-boot-servlet</module>
+        <module>spring-boot-servlet2</module>
+        <module>spring-boot-servlet3</module>
+        <module>spring-boot-cors</module>
+        <module>spring-boot-upload</module>
+        <module>spring-boot-jdbctemplate</module>
+        <module>spring-boot-jpa</module>
+        <module>spring-boot-h2</module>
+        <module>spring-boot-redis</module>
+        <module>spring-boot-ehcache</module>
+        <module>spring-boot-caching-redis</module>
+        <module>spring-boot-rabbitmq</module>
+        <module>spring-boot-mail</module>
+        <module>spring-boot-http</module>
+        <module>spring-boot-mybatis</module>
+        <module>spring-boot-mybatis2</module>
+        <module>spring-boot-swagger2</module>
+        <module>spring-boot-activemq</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.8.RELEASE</version>
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
